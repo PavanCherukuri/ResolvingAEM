@@ -1,0 +1,60 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call = "${clientlib.all @ categories='CategoriesFilter'}"/>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+<div id="plantdropdown">
+<p id="sidenav-textstyle-catgories1">Types of Plants</p>
+<p id="all-unchecked">Go back to all filters</p>
+<form name="Categories">
+  <input type="checkbox" value="Bonsai" name="Bonsai"/><label> Bonsai Plants</label><br>
+  <input type="checkbox" value="Cactus" name="Cactus"/><label> Cactus Plants</label><br>
+  <input type="checkbox" value="Climbers" name="Climbers"/><label> Climbers Plants</label><br>
+  <input type="checkbox" value="Fruit" name="Fruit"/><label> Fruit Plants</label><br>
+  <input type="checkbox" value="Herb" name="Herb"/><label> Herb Plants</label><br>
+</form>
+</div>
+
+
+
+<div id="pricedropdown">
+<p id="sidenav-textstyle-catgories1">Prices</p>
+<p id="all-unchecked1">Go back to all filters</p>
+<form name="Prices">
+<input type="checkbox" value="100" name="Range1"/><label> Rs.0-100</label><br>
+<input type="checkbox" value="400" name="Range2"/><label> Rs.101-400</label><br>
+<input type="checkbox" value="900" name="Range3"/><label> Rs.401-900</label><br>
+<input type="checkbox" value="1300" name="Range4"/><label> Rs.901-1300</label><br>
+<input type="checkbox" value="2000" name="Range5"/><label> Rs.1301-2000</label><br>
+
+</form>
+</div>
+
+
+
+<p id="BonsaiDiv"></p>
+<p id="CactusDiv"></p>
+<p id="ClimbersDiv"></p>
+<p id="FruitDiv"></p>
+<p id="HerbDiv"></p>
+
+
+<p id="Range1Div"></p>
+<p id="Range2Div"></p>
+<p id="Range3Div"></p>
+<p id="Range4Div"></p>
+<p id="Range5Div"></p>
+
+<div id="allData">
+    <p class="Name"></p>
+    <p class="Price"></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder">
+    <rep:policy/>
+    <dam/>
+    <campaigns/>
+    <projects/>
+    <experience-fragments/>
+    <cq:tags/>
+    <usergenerated/>
+    <core-components-examples/>
+    <launches/>
+    <communities/>
+    <sites/>
+    <forms/>
+    <catalogs/>
+    <screens/>
+    <community/>
+    <community-components/>
+    <we-retail/>
+    <wknd-events/>
+    <Orcharddemo/>
+    <xfaforms/>
+    <apps/>
+    <Example2/>
+    <orchard/>
+    <Demoorchard/>
+    <Reviewproject/>
+    <O2store/>
+    <test/>
+    <O2Store_Project/>
+</jcr:root>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder">
+    <rep:policy/>
+    <dam/>
+    <campaigns/>
+    <projects/>
+    <experience-fragments/>
+    <cq:tags/>
+    <usergenerated/>
+    <core-components-examples/>
+    <launches/>
+    <communities/>
+    <sites/>
+    <forms/>
+    <catalogs/>
+    <screens/>
+    <community/>
+    <community-components/>
+    <we-retail/>
+    <wknd-events/>
+    <Orcharddemo/>
+    <xfaforms/>
+    <apps/>
+    <Example2/>
+    <orchard/>
+    <Demoorchard/>
+    <Reviewproject/>
+    <O2store/>
+    <test/>
+    <O2Store_Project/>
+</jcr:root>
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git

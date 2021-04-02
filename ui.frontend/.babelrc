@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+{
+    "presets": [
+        "@babel/typescript"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
+    ]
+}
+=======
+{
+    "presets": [
+        "@babel/typescript"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
+    ]
+}
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git

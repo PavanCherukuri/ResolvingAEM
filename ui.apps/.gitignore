@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+# Created by https://www.gitignore.io/api/eclipse,java,maven
+
+src/main/content/jcr_root/apps/O2Store_Project/clientlibs/clientlib-site
+=======
+# Created by https://www.gitignore.io/api/eclipse,java,maven
+
+src/main/content/jcr_root/apps/O2Store_Project/clientlibs/clientlib-site
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git
+src/main/content/jcr_root/apps/O2Store_Project/clientlibs/clientlib-dependencies

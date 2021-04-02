@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+# Created by https://www.gitignore.io/api/eclipse,java,maven
+
+node/
+node_modules/
+npm-debug.log
+package-lock.json
+install.js
+=======
+# Created by https://www.gitignore.io/api/eclipse,java,maven
+
+node/
+node_modules/
+npm-debug.log
+package-lock.json
+install.js
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git

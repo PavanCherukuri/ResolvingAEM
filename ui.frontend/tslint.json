@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "target/**/*.ts",
+            "target/**/*.js"
+        ]
+    },
+    "rules": {
+        "align": true,
+        "curly": true,
+        "ordered-imports": [false],
+        "object-literal-sort-keys": [false],
+        "max-line-length": [true, 120],
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-console": {
+            "severity": "warning",
+            "options": ["debug", "info", "log"]
+        },
+      "no-trailing-whitespace": true,
+      "only-arrow-functions": true,
+      "semicolon": true
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [120]
+        }
+    },
+    "rulesDirectory": []
+}
+=======
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "target/**/*.ts",
+            "target/**/*.js"
+        ]
+    },
+    "rules": {
+        "align": true,
+        "curly": true,
+        "ordered-imports": [false],
+        "object-literal-sort-keys": [false],
+        "max-line-length": [true, 120],
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-console": {
+            "severity": "warning",
+            "options": ["debug", "info", "log"]
+        },
+      "no-trailing-whitespace": true,
+      "only-arrow-functions": true,
+      "semicolon": true
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [120]
+        }
+    },
+    "rulesDirectory": []
+}
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git

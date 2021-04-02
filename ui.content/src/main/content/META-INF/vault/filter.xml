@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/O2Store_Project" mode="merge"/>
+    <filter root="/content/O2Store_Project" mode="merge"/>
+    <filter root="/content/dam/O2Store_Project" mode="merge"/>
+</workspaceFilter>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/O2Store_Project" mode="merge"/>
+    <filter root="/content/O2Store_Project" mode="merge"/>
+    <filter root="/content/dam/O2Store_Project" mode="merge"/>
+</workspaceFilter>
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-03-24T22:35:19.359+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/O2Store_Project/settings/wcm/templates/project_template1"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Planter Accessories"
+        sling:resourceType="O2Store_Project/components/structure/page"/>
+</jcr:root>

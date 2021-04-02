@@ -1,0 +1,134 @@
+<sly
+   data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}"
+   data-sly-call="${clientLib.all @ categories='o2pdp.site'}"/>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>O<sub>2</sub> Store</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+      <meta name="robots" content="noindex,follow" />
+   </head>
+
+   <body>
+      <h6 class="cmp_o2pdp_breadcrumb" data-sly-resource="${'breadcrumb' @resourceType='foundation/components/breadcrumb'}"></h6>
+
+   <main class="cmp_o2pdp_container">
+         <div class="cmp_o2pdp_left-column">
+            <img data-image="red" class="active" src="${properties.fileReference}" alt="">
+         </div>
+
+         <div class="cmp_o2pdp_right-column">
+
+         <div class="cmp_o2pdp_product-description">
+            <span>${properties.category}</span>
+            <h1>${properties.title}</h1>
+            <p>${properties.description}</p>
+         </div>
+
+         <div class="cmp_o2pdp_product-about">
+            <h3>About</h3>
+            <ul>
+               <li>${properties.aboutPoint1}</li>
+               <li>${properties.aboutPoint2}</li>
+               <li>${properties.aboutPoint3}</li>
+            </ul>
+         </div>
+
+         <div class="cmp_o2pdp_product-price">
+            <p class="cmp_o2pdp_total-price">
+                <span id="cmp_o2pdp_price">${properties.price}/- <del style="font-size:15px; margin-left:6px;"> 1400/-</del></span>
+             </p>
+             <div class="cmp_o2pdp_quantity">
+                <button class="btn minus-btn disabled" type="button">-</button>
+                <input type="text" id="cmp_o2pdp_quantity" value="1">
+                <button class="btn plus-btn" type="button">+</button>
+             </div>
+            <a href="#" class="cmp_o2pdp_cart-btn">Add to cart</a>
+         </div>
+<<<<<<< HEAD
+
+      </main>
+      <div style="padding:20px; background-color:grey;"></div>
+
+
+
+
+
+
+
+=======
+         <div class="offer">
+           <p style="margin-left: 5px;">Today's Offer</p>
+            <ul>
+                <li>${properties.offer1}</li>
+                <li>${properties.offer2}</li>
+            </ul>
+        </div>
+       </div>
+      </main>
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git
+
+
+
+
+
+      <script>
+       //setting default attribute to disabled of minus button
+ document.querySelector(".minus-btn").setAttribute("disabled", "disabled");
+    
+ //taking value to increment decrement input value
+ var valueCount
+
+ //taking price value in variable
+ var price = document.getElementById("cmp_o2pdp_price").innerText;
+
+ //price calculation function
+ function priceTotal() {
+     var total = valueCount * price;
+     //document.getElementById("price").innerText = total
+ }
+
+ //plus button
+ document.querySelector(".plus-btn").addEventListener("click", function() {
+     //getting value of input
+     valueCount = document.getElementById("cmp_o2pdp_quantity").value;
+
+     //input value increment by 1
+     valueCount++;
+
+     //setting increment input value
+     document.getElementById("cmp_o2pdp_quantity").value = valueCount;
+
+     if (valueCount > 1) {
+         document.querySelector(".minus-btn").removeAttribute("disabled");
+         document.querySelector(".minus-btn").classList.remove("disabled")
+     }
+
+     //calling price function
+     priceTotal()
+ })
+
+ //plus button
+ document.querySelector(".minus-btn").addEventListener("click", function() {
+     //getting value of input
+     valueCount = document.getElementById("cmp_o2pdp_quantity").value;
+
+     //input value increment by 1
+     valueCount--;
+
+     //setting increment input value
+     document.getElementById("cmp_o2pdp_quantity").value = valueCount
+
+     if (valueCount == 1) {
+         document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
+     }
+
+     //calling price function
+     priceTotal()
+ })
+ </script>
+   </body>
+</html>

@@ -1,0 +1,28 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+data-sly-call = "${clientlib.all @ categories='paymentoptioncomp'}"/>
+<body>
+<div class="paymentoptions-hero">
+<div class="paymentoptions-box">
+<div class="paymentoptions-button_box">
+    <div id="btn"></div>
+    <button type="button" class="paymentoptions-toggle_btn" >   Payment Options</button>
+</div>
+<form name="paymentoptions" id="paymentoptions-login" class="paymentoptions-input_group" >
+    <div class="common">
+    <a href="/content/plant/language_master/creditcard.html" style="text-decoration:none;" class="creditcard-input_field" id="creditcard"  name="creditcard" required>  Credit Card</a>
+    </div>
+    <br>
+    <br>
+    <div class="common">
+    <a href="/content/plant/language_master/debitcard.html" style="text-decoration:none;" class="debitcard-input_field" id="debitcard"  name="debitcard" required>  Debit Card</a>
+    </div>
+    <br>
+    <br>
+    <div class="common">
+    <a href="/content/plant/language_master/orderplaced.html" style="text-decoration:none;" class="payondelivery-input_field" id="payondelivery"  name="payondelivery" required>  Pay on Delivery</a>
+    </div>
+</form>
+</div>
+</div>
+</div>
+    </body>

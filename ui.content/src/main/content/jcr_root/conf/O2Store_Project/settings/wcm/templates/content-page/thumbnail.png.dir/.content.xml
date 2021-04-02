@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[dam:Thumbnails]"
+        jcr:primaryType="nt:resource"/>
+</jcr:root>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[dam:Thumbnails]"
+        jcr:primaryType="nt:resource"/>
+</jcr:root>
+>>>>>>> branch 'master' of https://glcgitlab.southindia.cloudapp.azure.com/playground/Dec-2020/projects/aem/o2-store/O2Store_Project.git
